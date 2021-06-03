@@ -1,0 +1,17 @@
+{
+    "name": "slim/apiv1",
+    "description": "pembuatan rest api dengan slim framework",
+    "authors": [
+        {
+            "name": "bakrianto",
+            "email": "bambangpardianto@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "v2.6.1",
+        "tuupola/slim-jwt-auth": "2.4.0",
+        "slim/slim": "3.12.1",
+        "phpmailer/phpmailer": "v6.0.7",
+        "monolog/monolog": "1.24.0"
+    }
+}

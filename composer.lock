@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "02b468179e84afe13675273b0352e64c",
     "packages": [
         {
             "name": "container-interop/container-interop",
             "version": "1.2.0",
-            "version_normalized": "1.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/container-interop/container-interop.git",
@@ -18,9 +23,7 @@
             "require": {
                 "psr/container": "^1.0"
             },
-            "time": "2017-02-14T19:40:03+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Interop\\Container\\": "src/Interop/Container/"
@@ -37,12 +40,11 @@
                 "source": "https://github.com/container-interop/container-interop/tree/master"
             },
             "abandoned": "psr/container",
-            "install-path": "../container-interop/container-interop"
+            "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "firebase/php-jwt",
             "version": "v5.3.0",
-            "version_normalized": "5.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
@@ -60,9 +62,7 @@
             "require-dev": {
                 "phpunit/phpunit": ">=4.8 <=9"
             },
-            "time": "2021-05-20T17:37:02+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Firebase\\JWT\\": "src"
@@ -94,12 +94,11 @@
                 "issues": "https://github.com/firebase/php-jwt/issues",
                 "source": "https://github.com/firebase/php-jwt/tree/v5.3.0"
             },
-            "install-path": "../firebase/php-jwt"
+            "time": "2021-05-20T17:37:02+00:00"
         },
         {
             "name": "monolog/monolog",
             "version": "1.24.0",
-            "version_normalized": "1.24.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
@@ -144,14 +143,12 @@
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
-            "time": "2018-11-05T09:00:11+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -179,12 +176,11 @@
                 "issues": "https://github.com/Seldaek/monolog/issues",
                 "source": "https://github.com/Seldaek/monolog/tree/1.24.0"
             },
-            "install-path": "../monolog/monolog"
+            "time": "2018-11-05T09:00:11+00:00"
         },
         {
             "name": "nikic/fast-route",
             "version": "v1.3.0",
-            "version_normalized": "1.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
@@ -202,9 +198,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35|~5.7"
             },
-            "time": "2018-02-13T20:26:39+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "FastRoute\\": "src/"
@@ -232,12 +226,11 @@
                 "issues": "https://github.com/nikic/FastRoute/issues",
                 "source": "https://github.com/nikic/FastRoute/tree/master"
             },
-            "install-path": "../nikic/fast-route"
+            "time": "2018-02-13T20:26:39+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
             "version": "v6.0.7",
-            "version_normalized": "6.0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
@@ -271,9 +264,7 @@
                 "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
                 "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
             },
-            "time": "2019-02-01T15:04:28+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "PHPMailer\\PHPMailer\\": "src/"
@@ -305,12 +296,11 @@
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
                 "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.0.7"
             },
-            "install-path": "../phpmailer/phpmailer"
+            "time": "2019-02-01T15:04:28+00:00"
         },
         {
             "name": "pimple/pimple",
             "version": "v3.4.0",
-            "version_normalized": "3.4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
@@ -329,14 +319,12 @@
             "require-dev": {
                 "symfony/phpunit-bridge": "^5.0"
             },
-            "time": "2021-03-06T08:28:00+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.4.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "Pimple": "src/"
@@ -361,12 +349,11 @@
             "support": {
                 "source": "https://github.com/silexphp/Pimple/tree/v3.4.0"
             },
-            "install-path": "../pimple/pimple"
+            "time": "2021-03-06T08:28:00+00:00"
         },
         {
             "name": "psr/container",
             "version": "1.1.1",
-            "version_normalized": "1.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
@@ -381,9 +368,7 @@
             "require": {
                 "php": ">=7.2.0"
             },
-            "time": "2021-03-05T17:36:06+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Container\\": "src/"
@@ -412,12 +397,11 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
-            "install-path": "../psr/container"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-message",
             "version": "1.0.1",
-            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -432,14 +416,12 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2016-08-06T14:39:51+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -468,12 +450,11 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/master"
             },
-            "install-path": "../psr/http-message"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
             "version": "1.1.4",
-            "version_normalized": "1.1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -488,14 +469,12 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2021-05-03T11:20:27+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.1.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Log\\": "Psr/Log/"
@@ -521,12 +500,11 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
-            "install-path": "../psr/log"
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "slim/slim",
             "version": "3.12.1",
-            "version_normalized": "3.12.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
@@ -553,9 +531,7 @@
                 "phpunit/phpunit": "^4.0",
                 "squizlabs/php_codesniffer": "^2.5"
             },
-            "time": "2019-04-16T16:47:29+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Slim\\": "Slim"
@@ -599,12 +575,11 @@
                 "issues": "https://github.com/slimphp/Slim/issues",
                 "source": "https://github.com/slimphp/Slim/tree/3.x"
             },
-            "install-path": "../slim/slim"
+            "time": "2019-04-16T16:47:29+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.23.0",
-            "version_normalized": "1.23.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -622,7 +597,6 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "time": "2021-02-19T12:13:01+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -633,7 +607,6 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Polyfill\\Ctype\\": ""
@@ -681,12 +654,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-ctype"
+            "time": "2021-02-19T12:13:01+00:00"
         },
         {
             "name": "tuupola/slim-jwt-auth",
             "version": "2.4.0",
-            "version_normalized": "2.4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tuupola/slim-jwt-auth.git",
@@ -710,9 +682,7 @@
                 "squizlabs/php_codesniffer": "^2.3",
                 "zendframework/zend-diactoros": "^1.3"
             },
-            "time": "2018-04-03T06:12:18+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Slim\\Middleware\\": "src"
@@ -743,12 +713,11 @@
                 "issues": "https://github.com/tuupola/slim-jwt-auth/issues",
                 "source": "https://github.com/tuupola/slim-jwt-auth/tree/2.x"
             },
-            "install-path": "../tuupola/slim-jwt-auth"
+            "time": "2018-04-03T06:12:18+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
             "version": "v2.6.1",
-            "version_normalized": "2.6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
@@ -767,14 +736,12 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.0"
             },
-            "time": "2019-01-29T11:11:52+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.6-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Dotenv\\": "src/"
@@ -801,9 +768,16 @@
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
                 "source": "https://github.com/vlucas/phpdotenv/tree/2.6"
             },
-            "install-path": "../vlucas/phpdotenv"
+            "time": "2019-01-29T11:11:52+00:00"
         }
     ],
-    "dev": true,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
